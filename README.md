@@ -19,9 +19,11 @@ faces	list	Starting and ending (x, y)-coordinates for each face in the image.
 URL Upload Example
 
 $ curl -X POST 'http://api.pyimagesearch.com/face_detection/detect/' -d 'url=http://www.pyimagesearch.com/wp-content/uploads/2015/05/obama.jpg'
+
 {"num_faces": 1, "success": true, "faces": [[410, 100, 591, 281]]}
 
 File Upload Example
 
 $ curl -X POST -F image=@obama.jpg 'http://api.pyimagesearch.com/face_detection/detect/'
+
 {"num_faces": 1, "success": true, "faces": [[410, 100, 591, 281]]}
