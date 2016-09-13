@@ -1,6 +1,6 @@
 # cv_api
 
-Overview
+##Overview
 
 I implemented this simple face detection web application under the introduction from http://api.pyimagesearch.com/. It's in Python 3.5.2 and Opencv 3.0.0 in OSX.  
 
@@ -13,6 +13,8 @@ Key	Data Type	Description
 success	boolean	Indicates whether or not the request was successful or not.
 num_faces	int	Number of faces detected in the image.
 faces	list	Starting and ending (x, y)-coordinates for each face in the image.
+
+##Usage
 
 URL Upload Example
 
