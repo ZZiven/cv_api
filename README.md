@@ -1,4 +1,4 @@
-# cv_api
+# Face Detection Web APP
 
 ##Overview
 
